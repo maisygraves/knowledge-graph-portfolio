@@ -23,6 +23,13 @@ jekyll serve
 
 ## Content Workflow
 
+**Add your Personal Information**
+
+1. Add a link to your resume or LinkedIn profile to the navigation_bar.yml file in the _data/ folder.
+2. Add a title, your name, and a sentence or two about you to the _config.yml file.
+3. Add links to your social media profiles in the sm.yml file in the _data/folder.
+   To change social media platforms, update the sm.yml file and add an icon to the assets/img/sm-icons/ folder.
+
 **Creating a Post**
 
 1. Add a new Markdown file to the _posts/ folder.
