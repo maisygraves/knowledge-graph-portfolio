@@ -16,7 +16,7 @@ To run this blog locally and preview changes before pushing to GitHub:
 1. Install Ruby version 2.7.0 or higher for your OS
 2. Install Jekyll from the terminal
 3. Load site directory from GitHub 
-4. build static pages to /_static/ and run on local server http://localhost:4000
+4. build static pages to /_site/ and run on local server http://localhost:4000
 ```
 jekyll serve
 ```
@@ -33,7 +33,7 @@ YAML
 ---
 title: "Your Post Title"
 category: [note OR project]
-link: [GitHub repository]
+link: [GitHub repository if exists]
 date: YYYY-MM-DD 
 skills: [array of data science skills from Grolemund framework]
 tools: [array of tools in tech stack]
@@ -46,11 +46,26 @@ tools: [array of tools in tech stack]
 - Reusable Components: Update navigation or footers in _includes/.
 - Global Settings: Change the site title or description in _config.yml.
 
+**Adding Tools to Tech-stack**
+- Add the tool logo .svg file in assets/img/tool-icons/ folder.
+- Add a new Markdown file in the _tools/ folder
+- Front Matter Template for Markdown file:
+```
+YAML
+---
+title: [tool name] 
+tools: [markdown_file_name.md]
+icon: /assets/img/tool-icons/[svg_file_name].svg
+---
+```
+
+**Adding Resources**
+- Add an image for the new resource to the /assets/img/resources/ folder.
+- Add a new object to the resources.yml file in the _data/ folder.
+
 ## Deployment
 
-Since this is hosted on GitHub Pages, deployment is simple:
-- Any changes pushed to the main branch are automatically built and deployed by GitHub Actions.
-- *Note:* If the site fails to build, check the "Actions" tab in this repository for error logs.
+This site is built for hosting on GitHub Pages.
 
 ## Project Structure
 
