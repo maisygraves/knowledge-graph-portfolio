@@ -4,14 +4,12 @@
 
 
 # site settings
-url: https://github.com/maisygraves/blog
-title: b-Log
+title: [Title]
 description: documented projects, reflective write-ups and a curated collection of technical resources
 
 # about me table
-name: Maisy Graves
-about-me: I analyze data to help make complex problems clearer, with an emphasis on careful reasoning and clear communication.
-
+name: [Your Name]
+about-me: [sentence about you]
 collections:
   skills:
     output: true
