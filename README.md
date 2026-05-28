@@ -1,6 +1,6 @@
-# b-Log Source Code
+# Source Code
 
-The source code for my personal blog. Built with Jekyll, hosted via GitHub Pages, and crafted using custom HTML/CSS and Liquid templates.
+Built with Jekyll, hosted via GitHub Pages, and crafted using custom HTML/CSS and Liquid templates.
 
 ## Tech Stack
 
