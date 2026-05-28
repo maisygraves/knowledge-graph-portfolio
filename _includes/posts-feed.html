@@ -1,0 +1,14 @@
+<div class="posts-feed">
+<h2>Recent Posts</h2>
+    {% for post in site.posts %}
+        <div class="post-card">
+            <a class="post-card-link" href="{{ post.url }}">
+                <div class="post-card-header">
+                    <span class="post-date">{{ post.date | date: "%Y-%b-%d" }}</span>
+                    <span class="post-category">{{ post.category }}</span>
+                </div>
+                <h3>{{ post.title }}</h3>
+            </a>
+        </div>
+    {% endfor %}
+</div>
