@@ -1,6 +1,6 @@
 # Source Code
 
-Built with Jekyll, hosted via GitHub Pages, and crafted using custom HTML/CSS and Liquid templates. Go to the Markdown file in the _posts/ folder to read more about the project.
+Built with Jekyll, hosted via GitHub Pages, and crafted using "handmade" HTML/CSS and Liquid templates. Go to the Markdown file in the _posts/ folder to read more about the project.
 
 ## Tech Stack
 
